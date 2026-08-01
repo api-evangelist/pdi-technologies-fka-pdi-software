@@ -1,9 +1,30 @@
 aid: pdi-technologies-fka-pdi-software
 name: PDI Technologies (fka PDI Software)
-description: PDI Technologies (fka PDI Software) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  PDI Technologies (formerly PDI Software) is a global provider of software and
+  data solutions for the convenience retail and wholesale petroleum industries,
+  serving 200,000+ customers across 60+ countries. Its portfolio spans PDIQ (an
+  AI foundation for convenience and fuel operations), PDI Enterprise wholesale
+  petroleum software, ERP and back-office systems, POS and store systems,
+  logistics, loyalty marketing, fuel and mobility payments, an offer network,
+  insights and analytics, cybersecurity (PDI Security and Network Solutions,
+  formerly Echosat), and the consumer app GasBuddy. PDI is backed by Insight
+  Partners and has grown through acquisitions including P97 Networks. The
+  company exposes no public self-serve developer/API portal; this profile was
+  added to the API Evangelist network as an enrichment lead.
 url: https://raw.githubusercontent.com/api-evangelist/pdi-technologies-fka-pdi-software/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pditechnologies.com/wp-content/uploads/2022/08/PDI-case-studies-logo-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Convenience Retail
+- Fuel and Petroleum
+- Wholesale Distribution
+- Loyalty Marketing
+- Payments
+- ERP
+- Point of Sale
+- Analytics
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://pditechnologies.com/
+- type: Support
+  url: https://pditechnologies.com/customer-support/
+- type: Blog
+  url: https://pditechnologies.com/blog/
+- type: PrivacyPolicy
+  url: https://pditechnologies.com/privacy-policy/
+- type: TermsOfService
+  url: https://pditechnologies.com/terms-of-use/
+- type: LLMsTxt
+  url: llms/pdi-technologies-fka-pdi-software-llms.txt
+- type: DomainSecurity
+  url: security/pdi-technologies-fka-pdi-software-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
